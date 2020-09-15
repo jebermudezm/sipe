@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sipe</string>
+    <string name="action_settings">Sistema Pedidos</string>
+    <string name="title_activity_">SIPE</string>
+    <string name="title_activity_cliente">Clientes</string>
+    <string name="Clientes">Clientes</string>
+    <string name="TextCliente">Nro Documento</string>
+    <string name="Direccion">Dirección</string>
+    <string name="Nombre1">Nombre 1</string>
+    <string name="Nombre2">Nombre 2</string>
+    <string name="Apellido1">Apellido 1</string>
+    <string name="Apellido2">Apellido 2</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Celular">Celular</string>
+    <string name="TextLabelTipoDocu">Seleccione el tipo de documento</string>
+    <string name="TextLabelCiudad">Seleccione la ciudad</string>
+    <string name="textobtnGuardar">Guardar</string>
+    <string name="Salir">Salir</string>
+    <string name="title_activity_cons_cliente">ConsClienteActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="BuscarClienes">Busar Clientes</string>
+    <string name="BuscarCliente">Identificación o Nombre</string>
+    <string name="AddCliente">Adicionar Cliente</string>
+    <string name="title_activity_lista_productos">ListaProductos</string>
+    <string name="BuscarProducto">Producto o línea</string>
+    <string name="title_activity_pedidos">Pedidos</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Usuario">Usuario</string>
+    <string name="plus_sign_out">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="imgitem">ImgItem</string>
+    <string name="hello">Imagen</string>
+
+
+    <string name="title_activity_preventa">PreventaActivity</string>
+    <string name="Pedido">Preventa</string>
+    <string name="title_activity_menu_preventa">MenuPreventaActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_menuppal">MenuppalActivity</string>
+    <string name="title_activity_menu_sincro_">MenuSincro_Activity</string>
+    <string name="title_activity_menu_sinc">MenuSincActivity</string>
+    <string name="title_activity_menu_prev">Preventa</string>
+    <string name="title_activity_tab_activity_clientes">TabActivityClientes</string>
+    <string name="title_activity_tab_activity_rutas">TabActivityRutas</string>
+    <string name="title_activity_pedido_cliente">PedidoCliente</string>
+
+</resources>

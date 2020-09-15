@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jebm.sipe.LoginActivity"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/svLogin"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password"
+        android:foregroundGravity="center_horizontal">
+
+        <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center_horizontal"></ScrollView>
+    </ScrollView>
+
+    <Button android:id="@+id/sign_in_button" style="?android:textAppearanceSmall"
+        android:layout_width="200dp" android:layout_height="wrap_content"
+        android:text="@string/action_sign_in_short"
+        android:textStyle="bold"
+        android:onClick="sign_in_button_OnClick"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+    <EditText android:id="@+id/password" android:layout_width="500dp"
+        android:layout_height="wrap_content" android:hint="@string/prompt_password"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified" android:inputType="textPassword"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_above="@+id/sign_in_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <AutoCompleteTextView android:id="@+id/Usuario" android:layout_width="500dp"
+        android:layout_height="wrap_content" android:hint="@string/Usuario"
+        android:inputType="textPersonName" android:maxLines="1"
+        android:singleLine="true"
+        android:layout_above="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
